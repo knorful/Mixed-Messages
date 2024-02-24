@@ -1,0 +1,49 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+#main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+#buttons {
+  display: flex;
+  justify-content: space-around;
+}
+
+#affirmation {
+  margin: 15px 0px;
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+button {
+  padding: 15px;
+  border: 1px solid rgb(24, 182, 24);
+  border-radius: 4px;
+  background-color: rgb(24, 182, 24);
+  color: white;
+  font-size: 1.2rem;
+}
+
+button:hover {
+  cursor: pointer;
+  background-color: rgb(19, 139, 19);
+}
+
+button:disabled,
+button[disabled] {
+  border: 1px solid #999999;
+  background-color: #cccccc;
+  color: #666666;
+}
+
+section {
+  border: 2px solid black;
+  padding: 20px 40px;
+  min-width: 500px;
+}

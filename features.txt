@@ -1,0 +1,12 @@
+Simple Affirmation generator using JavaScript
+
+# Box that holds the core functionality
+# Area designated for messages to appear
+# Button to go forward or backwards
+# A random affirmation appears by default and then every click 
+of the next button generates new, random affirmation
+# Back button retrieves previously viewed affirmation
+
+Extras:
+#add affirmations for Health, Career, Spirtual, Quotes that can be selected
+to view specific areas
